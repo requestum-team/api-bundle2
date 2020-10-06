@@ -35,8 +35,7 @@
     "symfony/security-bundle": "^5.1",
     "doctrine/doctrine-bundle": "^2.1",
     "doctrine/orm": "^2.7",
-    "babdev/pagerfanta-bundle": "^2.5",
-    "swiftmailer/swiftmailer": "^6.2"
+    "babdev/pagerfanta-bundle": "^2.5"
   },
   "autoload-dev": {
     "psr-4": {
