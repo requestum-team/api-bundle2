@@ -52,7 +52,7 @@ class DeleteAction extends EntityAction
     protected function beforeDelete(Request $request, $entity)
     {
         foreach ($this->options['before_delete_events'] + ['action.before_delete'] as $event) {
-            $this->get('event_dispatcher')->dispatch($event, new EntityActionEvent($request, $entity, $this->getDoctrine()));
+            $this->get('event_dispatcher')->dispatch(new EntityActionEvent($request, $entity, $this->getDoctrine()), $event);
         }
     }
 
