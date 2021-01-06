@@ -2,7 +2,7 @@
 
 namespace Requestum\ApiBundle\Action;
 
-use Doctrine\Common\Persistence\ObjectRepository;
+use Doctrine\Persistence\ObjectRepository;;
 use Doctrine\DBAL\LockMode;
 use Doctrine\ORM\NoResultException;
 use Doctrine\ORM\QueryBuilder;
